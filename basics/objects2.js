@@ -42,7 +42,7 @@ console.log(Object.keys(tinder));  // return as an array data type and then loop
 console.log(Object.keys(tinder));
 console.log(Object.entries(tinder)); // array of key values
 
-console.log(tinder.hasOwnProperty("isLogged"))
+console.log(tinder.hasOwnProperty("isLogged")) //return boolean of true or false 
 
 
 

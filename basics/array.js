@@ -6,7 +6,7 @@ const other=[1,2,3,4,[5,6,7],[1,2],[1,2,3,[1,2]]];
 const another=other.flat(Infinity);
 console.log(another);
 console.log(Array.from("Avi"));
-console.log(Array.from({name:"Avi"})); // important empty
+console.log(Array.from({name:"Avi"})); // important empty confused in key , vlaue
 let s1=100;
 let s3=200;
 let s2=300;

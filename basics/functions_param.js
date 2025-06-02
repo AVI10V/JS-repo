@@ -39,5 +39,11 @@ handleobject({
     age:69
 }) //can pass objects , arrays as well
 
+//var has any scope inside function can be accessed outside 
+//console.log(addfunction(1,2)). if function inside variable and it is called before defining variable than error 
+const addfunction=function(x,y){
+    return x+y 
+}
+console.log(addfunction(3,4))
 
 

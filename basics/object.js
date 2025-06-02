@@ -8,10 +8,10 @@ const user={
     [myss]:"key1",
     age:22,   //age is treated as a string in actual all else
     location:"delhi",
-    lastlogin:["monday" , "sunday"]
+    lastlogin:["monday" , "sunday"] //array
 }
 // console.log(user.name);
-// console.log(user["name"]) //to be written as "" string
+// console.log(user["name"]) //to be written as "" string    
 // console.log(user["full name"])
 // console.log(user[myss])
 // user.name="Avishva verma" //change
@@ -25,7 +25,7 @@ user.greeting=function(){
     console.log("Hello")
 }
 user.greeting2=function(){
-    console.log(`Hello ${this.name}`) //interpolation and this.
+    console.log(`Hello ${this.name}`) //interpolation and this this is used to point object variables.
 }
 console.log(user.greeting())
 console.log(user.greeting2())
