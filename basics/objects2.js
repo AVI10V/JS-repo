@@ -23,20 +23,27 @@ const obj2={3:"4",4:'5'}
 // console.log(obj3)
 const obj3={...obj1 ,...obj2} // same as array spread op
 // console.log(obj3)
-const users=[
-    {
-        id:1,
-        email:"avi@"
-    }
-    {
-        id:1,
-        email:"avi@"
-    }
-    {
-        id:1,
-        email:"avi@"
-    }
-]
-users[1].email
+// const users=[
+//     {
+//         id:1,
+//         email:"avi@"
+//     }
+//     {
+//         id:1,
+//         email:"avi@"
+//     }
+//     {
+//         id:1,
+//         email:"avi@"
+//     }
+// ]
+// user[1].email //inside the array object is used 
+console.log(Object.keys(tinder));  // return as an array data type and then loop in
+console.log(Object.keys(tinder));
+console.log(Object.entries(tinder)); // array of key values
+
+console.log(tinder.hasOwnProperty("isLogged"))
+
+
 
 
